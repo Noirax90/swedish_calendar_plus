@@ -1,0 +1,2833 @@
+{
+  "attribution": "Svenska Akademien",
+  "days": [
+    {
+      "day": 1,
+      "month": 1,
+      "names": [
+        "Nyårsdagen"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 1,
+      "names": [
+        "Svea"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 1,
+      "names": [
+        "Alfred",
+        "Alfrida"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 1,
+      "names": [
+        "Rut"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 1,
+      "names": [
+        "Hanna",
+        "Hannele"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 1,
+      "names": [
+        "Baltsar",
+        "Kasper",
+        "Melker",
+        "Trettondedag jul"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 1,
+      "names": [
+        "August",
+        "Augusta"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 1,
+      "names": [
+        "Erland"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 1,
+      "names": [
+        "Gunder",
+        "Gunnar"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 1,
+      "names": [
+        "Sigbritt",
+        "Sigurd"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 1,
+      "names": [
+        "Jan",
+        "Jannike"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 1,
+      "names": [
+        "Frideborg",
+        "Fridolf"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 1,
+      "names": [
+        "Knut",
+        "Tjugondedag jul"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 1,
+      "names": [
+        "Felicia",
+        "Felix"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 1,
+      "names": [
+        "Laura",
+        "Lorentz"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 1,
+      "names": [
+        "Helmer",
+        "Hjalmar"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 1,
+      "names": [
+        "Anton",
+        "Tony"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 1,
+      "names": [
+        "Hilda",
+        "Hildur"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 1,
+      "names": [
+        "Henrik",
+        "Henry"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 1,
+      "names": [
+        "Fabian",
+        "Sebastian"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 1,
+      "names": [
+        "Agnes",
+        "Agneta"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 1,
+      "names": [
+        "Viktor",
+        "Vincent"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 1,
+      "names": [
+        "Frej",
+        "Freja"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 1,
+      "names": [
+        "Erika"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 1,
+      "names": [
+        "Paul",
+        "Pål"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 1,
+      "names": [
+        "Bodil",
+        "Boel"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 1,
+      "names": [
+        "Göta",
+        "Göte"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 1,
+      "names": [
+        "Karl",
+        "Karla"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 1,
+      "names": [
+        "Diana"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 1,
+      "names": [
+        "Gunhild",
+        "Gunilla"
+      ]
+    },
+    {
+      "day": 31,
+      "month": 1,
+      "names": [
+        "Ivar",
+        "Joar"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 2,
+      "names": [
+        "Max",
+        "Maximilian"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 2,
+      "names": [
+        "Kyndelsmässodagen"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 2,
+      "names": [
+        "Disa",
+        "Hjördis"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 2,
+      "names": [
+        "Anselm",
+        "Ansgar"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 2,
+      "names": [
+        "Agata",
+        "Agda"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 2,
+      "names": [
+        "Doris",
+        "Dorotea"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 2,
+      "names": [
+        "Dick",
+        "Rikard"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 2,
+      "names": [
+        "Bert",
+        "Berta"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 2,
+      "names": [
+        "Fanny",
+        "Franciska"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 2,
+      "names": [
+        "Iris"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 2,
+      "names": [
+        "Inge",
+        "Yngve"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 2,
+      "names": [
+        "Evelina",
+        "Evy"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 2,
+      "names": [
+        "Agne",
+        "Ove"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 2,
+      "names": [
+        "Valentin"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 2,
+      "names": [
+        "Sigfrid"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 2,
+      "names": [
+        "Julia",
+        "Julius"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 2,
+      "names": [
+        "Alexandra",
+        "Sandra"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 2,
+      "names": [
+        "Frida",
+        "Fritiof"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 2,
+      "names": [
+        "Ella",
+        "Gabriella"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 2,
+      "names": [
+        "Vivianne"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 2,
+      "names": [
+        "Hilding"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 2,
+      "names": [
+        "Pia"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 2,
+      "names": [
+        "Torsten",
+        "Torun"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 2,
+      "names": [
+        "Mats",
+        "Mattias"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 2,
+      "names": [
+        "Sigvard",
+        "Sivert"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 2,
+      "names": [
+        "Torgny",
+        "Torkel"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 2,
+      "names": [
+        "Lage"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 2,
+      "names": [
+        "Maja",
+        "Maria"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 2,
+      "names": [
+        "Skottdagen"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 3,
+      "names": [
+        "Albin",
+        "Elvira"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 3,
+      "names": [
+        "Erna",
+        "Ernst"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 3,
+      "names": [
+        "Gunborg",
+        "Gunvor"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 3,
+      "names": [
+        "Adrian",
+        "Adriana"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 3,
+      "names": [
+        "Tora",
+        "Tove"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 3,
+      "names": [
+        "Ebba",
+        "Ebbe"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 3,
+      "names": [
+        "Camilla"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 3,
+      "names": [
+        "Siv"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 3,
+      "names": [
+        "Torbjörn",
+        "Torleif"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 3,
+      "names": [
+        "Ada",
+        "Edla"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 3,
+      "names": [
+        "Edvin",
+        "Egon"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 3,
+      "names": [
+        "Regina",
+        "Viktoria"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 3,
+      "names": [
+        "Greger"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 3,
+      "names": [
+        "Matilda",
+        "Maud"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 3,
+      "names": [
+        "Christel",
+        "Kristoffer"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 3,
+      "names": [
+        "Gilbert",
+        "Herbert"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 3,
+      "names": [
+        "Gertrud"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 3,
+      "names": [
+        "Edmund",
+        "Edvard"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 3,
+      "names": [
+        "Josef",
+        "Josefina"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 3,
+      "names": [
+        "Joakim",
+        "Kim"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 3,
+      "names": [
+        "Bengt"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 3,
+      "names": [
+        "Kennet",
+        "Kent"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 3,
+      "names": [
+        "Gerd",
+        "Gerda"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 3,
+      "names": [
+        "Gabriel",
+        "Rafael"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 3,
+      "names": [
+        "Marie Bebådelsedag"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 3,
+      "names": [
+        "Emanuel"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 3,
+      "names": [
+        "Ralf",
+        "Rudolf"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 3,
+      "names": [
+        "Malkolm",
+        "Morgan"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 3,
+      "names": [
+        "Jens",
+        "Jonas"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 3,
+      "names": [
+        "Holger",
+        "Holmfrid"
+      ]
+    },
+    {
+      "day": 31,
+      "month": 3,
+      "names": [
+        "Ester",
+        "Noa(h)"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 4,
+      "names": [
+        "Harald",
+        "Hervor"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 4,
+      "names": [
+        "Gudmund",
+        "Ingemund"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 4,
+      "names": [
+        "Ferdinand",
+        "Nanna"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 4,
+      "names": [
+        "Marianne",
+        "Marlene"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 4,
+      "names": [
+        "Irene",
+        "Irja"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 4,
+      "names": [
+        "Vilhelm"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 4,
+      "names": [
+        "Irma",
+        "Irmelin"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 4,
+      "names": [
+        "Nadja",
+        "Tanja"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 4,
+      "names": [
+        "Ottilia",
+        "Otto"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 4,
+      "names": [
+        "Ingvar",
+        "Ingvor"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 4,
+      "names": [
+        "Ulf",
+        "Ylva"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 4,
+      "names": [
+        "Liv"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 4,
+      "names": [
+        "Artur",
+        "Douglas"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 4,
+      "names": [
+        "Tiburtius"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 4,
+      "names": [
+        "Oliver",
+        "Olivia"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 4,
+      "names": [
+        "Patricia",
+        "Patrik"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 4,
+      "names": [
+        "Elias",
+        "Elis"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 4,
+      "names": [
+        "Valdemar",
+        "Volmar"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 4,
+      "names": [
+        "Ola",
+        "Olaus"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 4,
+      "names": [
+        "Amalia",
+        "Amelie"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 4,
+      "names": [
+        "Anneli",
+        "Annika"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 4,
+      "names": [
+        "Allan",
+        "Glenn"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 4,
+      "names": [
+        "Georg",
+        "Göran"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 4,
+      "names": [
+        "Vega"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 4,
+      "names": [
+        "Markus"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 4,
+      "names": [
+        "Terese",
+        "Teresia"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 4,
+      "names": [
+        "Engelbrekt"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 4,
+      "names": [
+        "Ture",
+        "Tyra"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 4,
+      "names": [
+        "Tyko"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 4,
+      "names": [
+        "Mariana"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 5,
+      "names": [
+        "Valborg"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 5,
+      "names": [
+        "Filip",
+        "Filippa"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 5,
+      "names": [
+        "Jane",
+        "John"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 5,
+      "names": [
+        "Mona",
+        "Monika"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 5,
+      "names": [
+        "Erhard",
+        "Gotthard"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 5,
+      "names": [
+        "Marit",
+        "Rita"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 5,
+      "names": [
+        "Carina",
+        "Carita"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 5,
+      "names": [
+        "Åke"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 5,
+      "names": [
+        "Reidar",
+        "Reidun"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 5,
+      "names": [
+        "Esbjörn",
+        "Styrbjörn"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 5,
+      "names": [
+        "Märit",
+        "Märta"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 5,
+      "names": [
+        "Charlotta",
+        "Lotta"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 5,
+      "names": [
+        "Linn",
+        "Linnea"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 5,
+      "names": [
+        "Halvar",
+        "Halvard"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 5,
+      "names": [
+        "Sofia",
+        "Sonja"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 5,
+      "names": [
+        "Ronald",
+        "Ronny"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 5,
+      "names": [
+        "Rebecka",
+        "Ruben"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 5,
+      "names": [
+        "Erik"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 5,
+      "names": [
+        "Maj",
+        "Majken"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 5,
+      "names": [
+        "Carola",
+        "Karolina"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 5,
+      "names": [
+        "Conny",
+        "Konstantin"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 5,
+      "names": [
+        "Hemming",
+        "Henning"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 5,
+      "names": [
+        "Desideria",
+        "Desirée"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 5,
+      "names": [
+        "Ivan",
+        "Vanja"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 5,
+      "names": [
+        "Urban"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 5,
+      "names": [
+        "Vilhelmina",
+        "Vilma"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 5,
+      "names": [
+        "Beda",
+        "Blenda"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 5,
+      "names": [
+        "Borghild",
+        "Ingeborg"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 5,
+      "names": [
+        "Jeanette",
+        "Yvonne"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 5,
+      "names": [
+        "Vera",
+        "Veronika"
+      ]
+    },
+    {
+      "day": 31,
+      "month": 5,
+      "names": [
+        "Pernilla",
+        "Petronella"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 6,
+      "names": [
+        "Gun",
+        "Gunnel"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 6,
+      "names": [
+        "Roger",
+        "Rutger"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 6,
+      "names": [
+        "Gudmar",
+        "Ingemar"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 6,
+      "names": [
+        "Solbritt",
+        "Solveig"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 6,
+      "names": [
+        "Bo"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 6,
+      "names": [
+        "Gustav",
+        "Gösta"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 6,
+      "names": [
+        "Robert",
+        "Robin"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 6,
+      "names": [
+        "Eivor",
+        "Majvor"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 6,
+      "names": [
+        "Birger",
+        "Börje"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 6,
+      "names": [
+        "Boris",
+        "Svante"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 6,
+      "names": [
+        "Berthold",
+        "Bertil"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 6,
+      "names": [
+        "Eskil"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 6,
+      "names": [
+        "Aina",
+        "Aino"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 6,
+      "names": [
+        "Hakon",
+        "Håkan"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 6,
+      "names": [
+        "Margit",
+        "Margot"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 6,
+      "names": [
+        "Axel",
+        "Axelina"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 6,
+      "names": [
+        "Torborg",
+        "Torvald"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 6,
+      "names": [
+        "Bjarne",
+        "Björn"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 6,
+      "names": [
+        "Germund",
+        "Görel"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 6,
+      "names": [
+        "Linda"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 6,
+      "names": [
+        "Alf",
+        "Alvar"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 6,
+      "names": [
+        "Paula",
+        "Paulina"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 6,
+      "names": [
+        "Adolf",
+        "Alice"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 6,
+      "names": [
+        "Johannes Döparens dag"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 6,
+      "names": [
+        "David",
+        "Salomon"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 6,
+      "names": [
+        "Lea",
+        "Rakel"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 6,
+      "names": [
+        "Fingal",
+        "Selma"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 6,
+      "names": [
+        "Leo"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 6,
+      "names": [
+        "Peter",
+        "Petra"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 6,
+      "names": [
+        "Elof",
+        "Leif"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 7,
+      "names": [
+        "Aron",
+        "Mirjam"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 7,
+      "names": [
+        "Rosa",
+        "Rosita"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 7,
+      "names": [
+        "Aurora"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 7,
+      "names": [
+        "Ulla",
+        "Ulrika"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 7,
+      "names": [
+        "Laila",
+        "Ritva"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 7,
+      "names": [
+        "Esaias",
+        "Jessika"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 7,
+      "names": [
+        "Klas"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 7,
+      "names": [
+        "Kjell"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 7,
+      "names": [
+        "Jörgen",
+        "Örjan"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 7,
+      "names": [
+        "Andrea",
+        "André"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 7,
+      "names": [
+        "Eleonora",
+        "Ellinor"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 7,
+      "names": [
+        "Herman",
+        "Hermine"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 7,
+      "names": [
+        "Joel",
+        "Judit"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 7,
+      "names": [
+        "Folke"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 7,
+      "names": [
+        "Ragnhild",
+        "Ragnvald"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 7,
+      "names": [
+        "Reine",
+        "Reinhold"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 7,
+      "names": [
+        "Bruno"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 7,
+      "names": [
+        "Fredrik",
+        "Fritz"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 7,
+      "names": [
+        "Sara"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 7,
+      "names": [
+        "Greta",
+        "Margareta"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 7,
+      "names": [
+        "Johanna"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 7,
+      "names": [
+        "Madeleine",
+        "Magdalena"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 7,
+      "names": [
+        "Emma"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 7,
+      "names": [
+        "Kerstin",
+        "Kristina"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 7,
+      "names": [
+        "Jakob"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 7,
+      "names": [
+        "Jesper"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 7,
+      "names": [
+        "Marta"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 7,
+      "names": [
+        "Botvid",
+        "Seved"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 7,
+      "names": [
+        "Olle",
+        "Olof"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 7,
+      "names": [
+        "Algot"
+      ]
+    },
+    {
+      "day": 31,
+      "month": 7,
+      "names": [
+        "Elin",
+        "Helena"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 8,
+      "names": [
+        "Per"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 8,
+      "names": [
+        "Kajsa",
+        "Karin"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 8,
+      "names": [
+        "Tage"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 8,
+      "names": [
+        "Arne",
+        "Arnold"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 8,
+      "names": [
+        "Alrik",
+        "Ulrik"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 8,
+      "names": [
+        "Alfons",
+        "Inez"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 8,
+      "names": [
+        "Denise",
+        "Dennis"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 8,
+      "names": [
+        "Silvia",
+        "Sylvia"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 8,
+      "names": [
+        "Roland"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 8,
+      "names": [
+        "Lars"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 8,
+      "names": [
+        "Susanna"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 8,
+      "names": [
+        "Klara"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 8,
+      "names": [
+        "Kaj"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 8,
+      "names": [
+        "Uno"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 8,
+      "names": [
+        "Estelle",
+        "Stella"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 8,
+      "names": [
+        "Brynolf"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 8,
+      "names": [
+        "Valter",
+        "Verner"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 8,
+      "names": [
+        "Ellen",
+        "Lena"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 8,
+      "names": [
+        "Magnus",
+        "Måns"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 8,
+      "names": [
+        "Bernhard",
+        "Bernt"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 8,
+      "names": [
+        "Jon"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 8,
+      "names": [
+        "Henrietta",
+        "Henrika"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 8,
+      "names": [
+        "Signe",
+        "Signhild"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 8,
+      "names": [
+        "Bartolomeus"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 8,
+      "names": [
+        "Louise",
+        "Lovisa"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 8,
+      "names": [
+        "Östen"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 8,
+      "names": [
+        "Raoul",
+        "Rolf"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 8,
+      "names": [
+        "Fatima",
+        "Leila"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 8,
+      "names": [
+        "Hampus",
+        "Hans"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 8,
+      "names": [
+        "Albert",
+        "Albertina"
+      ]
+    },
+    {
+      "day": 31,
+      "month": 8,
+      "names": [
+        "Arvid",
+        "Vidar"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 9,
+      "names": [
+        "Samuel"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 9,
+      "names": [
+        "Justina",
+        "Justus"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 9,
+      "names": [
+        "Alfhild",
+        "Alva"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 9,
+      "names": [
+        "Gisela"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 9,
+      "names": [
+        "Adela",
+        "Heidi"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 9,
+      "names": [
+        "Lilian",
+        "Lilly"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 9,
+      "names": [
+        "Kevin",
+        "Roy"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 9,
+      "names": [
+        "Alma",
+        "Hulda"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 9,
+      "names": [
+        "Anita",
+        "Annette"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 9,
+      "names": [
+        "Tord",
+        "Turid"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 9,
+      "names": [
+        "Dagny",
+        "Helny"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 9,
+      "names": [
+        "Åsa",
+        "Åslög"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 9,
+      "names": [
+        "Sture"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 9,
+      "names": [
+        "Ida"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 9,
+      "names": [
+        "Sigrid",
+        "Siri"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 9,
+      "names": [
+        "Dag",
+        "Daga"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 9,
+      "names": [
+        "Hildegard",
+        "Magnhild"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 9,
+      "names": [
+        "Orvar"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 9,
+      "names": [
+        "Fredrika"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 9,
+      "names": [
+        "Elise",
+        "Lisa"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 9,
+      "names": [
+        "Matteus"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 9,
+      "names": [
+        "Maurits",
+        "Moritz"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 9,
+      "names": [
+        "Tea",
+        "Tekla"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 9,
+      "names": [
+        "Gerhard",
+        "Gert"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 9,
+      "names": [
+        "Tryggve"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 9,
+      "names": [
+        "Einar",
+        "Enar"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 9,
+      "names": [
+        "Dagmar",
+        "Rigmor"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 9,
+      "names": [
+        "Lennart",
+        "Leonard"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 9,
+      "names": [
+        "Mikael",
+        "Mikaela"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 9,
+      "names": [
+        "Helge"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 10,
+      "names": [
+        "Ragna",
+        "Ragnar"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 10,
+      "names": [
+        "Love",
+        "Ludvig"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 10,
+      "names": [
+        "Evald",
+        "Osvald"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 10,
+      "names": [
+        "Frank",
+        "Frans"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 10,
+      "names": [
+        "Bror"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 10,
+      "names": [
+        "Jennifer",
+        "Jenny"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 10,
+      "names": [
+        "Birgitta",
+        "Britta"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 10,
+      "names": [
+        "Nils"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 10,
+      "names": [
+        "Inger",
+        "Ingrid"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 10,
+      "names": [
+        "Harriet",
+        "Harry"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 10,
+      "names": [
+        "Erling",
+        "Jarl"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 10,
+      "names": [
+        "Manfred",
+        "Valfrid"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 10,
+      "names": [
+        "Berit",
+        "Birgit"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 10,
+      "names": [
+        "Stellan"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 10,
+      "names": [
+        "Hedvig",
+        "Hillevi"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 10,
+      "names": [
+        "Finn"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 10,
+      "names": [
+        "Antonia",
+        "Toini"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 10,
+      "names": [
+        "Lukas"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 10,
+      "names": [
+        "Tor",
+        "Tore"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 10,
+      "names": [
+        "Sibylla"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 10,
+      "names": [
+        "Ursula",
+        "Yrsa"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 10,
+      "names": [
+        "Marika",
+        "Marita"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 10,
+      "names": [
+        "Severin",
+        "Sören"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 10,
+      "names": [
+        "Eilert",
+        "Evert"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 10,
+      "names": [
+        "Inga",
+        "Ingalill"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 10,
+      "names": [
+        "Amanda",
+        "Rasmus"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 10,
+      "names": [
+        "Sabina"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 10,
+      "names": [
+        "Simon",
+        "Simone"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 10,
+      "names": [
+        "Viola"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 10,
+      "names": [
+        "Elsa",
+        "Isabella"
+      ]
+    },
+    {
+      "day": 31,
+      "month": 10,
+      "names": [
+        "Edgar",
+        "Edit"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 11,
+      "names": [
+        "Allhelgonadagen"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 11,
+      "names": [
+        "Tim",
+        "Tobias"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 11,
+      "names": [
+        "Hubert",
+        "Hugo"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 11,
+      "names": [
+        "Sverker"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 11,
+      "names": [
+        "Eugen",
+        "Eugenia"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 11,
+      "names": [
+        "Gustav Adolf"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 11,
+      "names": [
+        "Ingegerd",
+        "Ingela"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 11,
+      "names": [
+        "Vendela"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 11,
+      "names": [
+        "Teodor",
+        "Teodora"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 11,
+      "names": [
+        "Martin",
+        "Martina"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 11,
+      "names": [
+        "Mårten"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 11,
+      "names": [
+        "Konrad",
+        "Kurt"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 11,
+      "names": [
+        "Krister",
+        "Kristian"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 11,
+      "names": [
+        "Emil",
+        "Emilia"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 11,
+      "names": [
+        "Leopold"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 11,
+      "names": [
+        "Vibeke",
+        "Viveka"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 11,
+      "names": [
+        "Naemi",
+        "Naima"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 11,
+      "names": [
+        "Lillemor",
+        "Moa"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 11,
+      "names": [
+        "Elisabet",
+        "Lisbet"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 11,
+      "names": [
+        "Marina",
+        "Pontus"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 11,
+      "names": [
+        "Helga",
+        "Olga"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 11,
+      "names": [
+        "Cecilia",
+        "Sissela"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 11,
+      "names": [
+        "Klemens"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 11,
+      "names": [
+        "Gudrun",
+        "Rune"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 11,
+      "names": [
+        "Katarina",
+        "Katja"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 11,
+      "names": [
+        "Linus"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 11,
+      "names": [
+        "Asta",
+        "Astrid"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 11,
+      "names": [
+        "Malte"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 11,
+      "names": [
+        "Sune"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 11,
+      "names": [
+        "Anders",
+        "Andreas"
+      ]
+    },
+    {
+      "day": 1,
+      "month": 12,
+      "names": [
+        "Oskar",
+        "Ossian"
+      ]
+    },
+    {
+      "day": 2,
+      "month": 12,
+      "names": [
+        "Beata",
+        "Beatrice"
+      ]
+    },
+    {
+      "day": 3,
+      "month": 12,
+      "names": [
+        "Cornelia",
+        "Lydia"
+      ]
+    },
+    {
+      "day": 4,
+      "month": 12,
+      "names": [
+        "Barbara",
+        "Barbro"
+      ]
+    },
+    {
+      "day": 5,
+      "month": 12,
+      "names": [
+        "Sven"
+      ]
+    },
+    {
+      "day": 6,
+      "month": 12,
+      "names": [
+        "Niklas",
+        "Nikolaus"
+      ]
+    },
+    {
+      "day": 7,
+      "month": 12,
+      "names": [
+        "Angela",
+        "Angelika"
+      ]
+    },
+    {
+      "day": 8,
+      "month": 12,
+      "names": [
+        "Virginia"
+      ]
+    },
+    {
+      "day": 9,
+      "month": 12,
+      "names": [
+        "Anna"
+      ]
+    },
+    {
+      "day": 10,
+      "month": 12,
+      "names": [
+        "Malena",
+        "Malin"
+      ]
+    },
+    {
+      "day": 11,
+      "month": 12,
+      "names": [
+        "Daniel",
+        "Daniela"
+      ]
+    },
+    {
+      "day": 12,
+      "month": 12,
+      "names": [
+        "Alexander",
+        "Alexis"
+      ]
+    },
+    {
+      "day": 13,
+      "month": 12,
+      "names": [
+        "Lucia"
+      ]
+    },
+    {
+      "day": 14,
+      "month": 12,
+      "names": [
+        "Sixten",
+        "Sten"
+      ]
+    },
+    {
+      "day": 15,
+      "month": 12,
+      "names": [
+        "Gottfrid"
+      ]
+    },
+    {
+      "day": 16,
+      "month": 12,
+      "names": [
+        "Assar"
+      ]
+    },
+    {
+      "day": 17,
+      "month": 12,
+      "names": [
+        "Stig"
+      ]
+    },
+    {
+      "day": 18,
+      "month": 12,
+      "names": [
+        "Abraham"
+      ]
+    },
+    {
+      "day": 19,
+      "month": 12,
+      "names": [
+        "Isak"
+      ]
+    },
+    {
+      "day": 20,
+      "month": 12,
+      "names": [
+        "Israel",
+        "Moses"
+      ]
+    },
+    {
+      "day": 21,
+      "month": 12,
+      "names": [
+        "Tomas"
+      ]
+    },
+    {
+      "day": 22,
+      "month": 12,
+      "names": [
+        "Jonatan",
+        "Natanael"
+      ]
+    },
+    {
+      "day": 23,
+      "month": 12,
+      "names": [
+        "Adam"
+      ]
+    },
+    {
+      "day": 24,
+      "month": 12,
+      "names": [
+        "Eva"
+      ]
+    },
+    {
+      "day": 25,
+      "month": 12,
+      "names": [
+        "Juldagen"
+      ]
+    },
+    {
+      "day": 26,
+      "month": 12,
+      "names": [
+        "Staffan",
+        "Stefan"
+      ]
+    },
+    {
+      "day": 27,
+      "month": 12,
+      "names": [
+        "Johan",
+        "Johannes"
+      ]
+    },
+    {
+      "day": 28,
+      "month": 12,
+      "names": [
+        "Benjamin",
+        "Värnlösa barns dag"
+      ]
+    },
+    {
+      "day": 29,
+      "month": 12,
+      "names": [
+        "Natalia",
+        "Natalie"
+      ]
+    },
+    {
+      "day": 30,
+      "month": 12,
+      "names": [
+        "Abel",
+        "Set"
+      ]
+    },
+    {
+      "day": 31,
+      "month": 12,
+      "names": [
+        "Sylvester"
+      ]
+    }
+  ],
+  "retrieved_at": "2026-07-18",
+  "source": "https://sa-admin-live.lb.se/items/names?fields=*&sort=title&limit=30000&meta=*&page=1"
+}

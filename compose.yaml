@@ -1,0 +1,13 @@
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:2026.7.2
+    environment:
+      TZ: Europe/Stockholm
+    ports:
+      - "8123:8123"
+    volumes:
+      - ./config:/config
+      - ./custom_components/swedish_calendar_plus:/config/custom_components/swedish_calendar_plus:ro
+    stop_grace_period: 30s
+    security_opt:
+      - no-new-privileges:true

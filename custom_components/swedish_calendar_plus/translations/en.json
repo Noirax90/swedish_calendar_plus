@@ -1,0 +1,231 @@
+{
+  "common": {
+    "event_new_years_day": "New Year's Day",
+    "event_epiphany": "Epiphany",
+    "event_may_day": "May Day",
+    "event_national_day": "National Day of Sweden",
+    "event_christmas_day": "Christmas Day",
+    "event_boxing_day": "Boxing Day",
+    "event_good_friday": "Good Friday",
+    "event_easter_sunday": "Easter Sunday",
+    "event_easter_monday": "Easter Monday",
+    "event_ascension_day": "Ascension Day",
+    "event_whit_sunday": "Whit Sunday",
+    "event_midsummer_day": "Midsummer Day",
+    "event_all_saints_day": "All Saints' Day",
+    "event_epiphany_eve": "Epiphany Eve",
+    "event_easter_eve": "Easter Eve",
+    "event_walpurgis_night": "Walpurgis Night",
+    "event_whitsun_eve": "Whitsun Eve",
+    "event_midsummer_eve": "Midsummer Eve",
+    "event_all_hallows_eve": "All Hallows' Eve",
+    "event_christmas_eve": "Christmas Eve",
+    "event_new_years_eve": "New Year's Eve",
+    "event_sunday": "Sunday",
+    "event_bridge_day": "Bridge day",
+    "event_flag_new_years_day": "New Year's Day",
+    "event_flag_kings_name_day": "King Carl XVI Gustaf's name day",
+    "event_flag_crown_princess_name_day": "Crown Princess Victoria's name day",
+    "event_flag_easter_sunday": "Easter Sunday",
+    "event_flag_kings_birthday": "King Carl XVI Gustaf's birthday",
+    "event_flag_may_day": "May Day",
+    "event_flag_whit_sunday": "Whit Sunday",
+    "event_flag_veterans_day": "Veterans Day",
+    "event_flag_national_day": "National Day of Sweden and Swedish Flag Day",
+    "event_flag_eu_election_day": "European Parliament Election Day",
+    "event_flag_midsummer_day": "Midsummer Day",
+    "event_flag_crown_princess_birthday": "Crown Princess Victoria's birthday",
+    "event_flag_queens_name_day": "Queen Silvia's name day",
+    "event_flag_parliamentary_election_day": "Parliamentary Election Day",
+    "event_flag_un_day": "United Nations Day",
+    "event_flag_gustav_adolf_day": "Gustav Adolf Day",
+    "event_flag_nobel_day": "Nobel Day",
+    "event_flag_queens_birthday": "Queen Silvia's birthday",
+    "event_flag_christmas_day": "Christmas Day",
+    "theme_attribution": "Source: Temadagar.se - Read more"
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Swedish Calendar Plus",
+        "description": "Configure shared settings and create the first calendar.\n\n**Data sources**\n\n- Name days are provided by [Svenska Akademien]({name_day_source}). Only names in the current `namnlangd` are included.\n- Theme-day names and dates are provided by [Temadagar.se]({theme_day_source}). Theme-day events include a link back to their source page.",
+        "data": {
+          "calendar_name": "Calendar name",
+          "language": "Language",
+          "categories": "Include"
+        },
+        "data_description": {
+          "language": "Used by the first calendar and the shared sensors."
+        },
+        "sections": {
+          "advanced": {
+            "name": "Advanced",
+            "data": {
+              "include_sundays": "Count every Sunday as a red day",
+              "red_day_bridge_days": "Count bridge days as red days",
+              "red_day_epiphany_eve": "Count Epiphany Eve as a red day",
+              "red_day_easter_eve": "Count Easter Eve as a red day",
+              "red_day_walpurgis_night": "Count Walpurgis Night as a red day",
+              "red_day_whitsun_eve": "Count Whitsun Eve as a red day",
+              "red_day_midsummer_eve": "Count Midsummer Eve as a red day",
+              "red_day_all_hallows_eve": "Count All Hallows' Eve as a red day",
+              "red_day_christmas_eve": "Count Christmas Eve as a red day",
+              "red_day_new_years_eve": "Count New Year's Eve as a red day"
+            },
+            "data_description": {
+              "include_sundays": "When disabled, ordinary Sundays do not count unless they are a named legal holiday.",
+              "red_day_bridge_days": "A weekday between two days off will also be treated as red by the shared sensors."
+            }
+          }
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Swedish Calendar Plus is already configured. Add more calendars from the existing integration entry."
+    }
+  },
+  "config_subentries": {
+    "calendar": {
+      "entry_type": "Calendar",
+      "initiate_flow": {
+        "user": "Add calendar"
+      },
+      "title": "Calendar",
+      "step": {
+        "user": {
+          "title": "Add calendar",
+          "description": "Choose the content for this calendar.\n\n**Data sources**\n\n- Name days are provided by [Svenska Akademien]({name_day_source}).\n- Theme-day names and dates are provided by [Temadagar.se]({theme_day_source}). Each theme-day event links back to its source page.",
+          "data": {
+            "calendar_name": "Calendar name",
+            "language": "Event language",
+            "categories": "Include"
+          },
+          "sections": {
+            "advanced": {
+              "name": "Advanced",
+              "data": {
+                "override_shared_eve_settings": "Override shared holiday-eve settings",
+                "include_bridge_days": "Include bridge days",
+                "include_epiphany_eve": "Include Epiphany Eve",
+                "include_easter_eve": "Include Easter Eve",
+                "include_walpurgis_night": "Include Walpurgis Night",
+                "include_whitsun_eve": "Include Whitsun Eve",
+                "include_midsummer_eve": "Include Midsummer Eve",
+                "include_all_hallows_eve": "Include All Hallows' Eve",
+                "include_christmas_eve": "Include Christmas Eve",
+                "include_new_years_eve": "Include New Year's Eve"
+              },
+              "data_description": {
+                "override_shared_eve_settings": "Applies only to the holiday-eve switches below.",
+                "include_bridge_days": "Independent of the shared red-day setting and the holiday-eve override."
+              }
+            }
+          }
+        },
+        "reconfigure": {
+          "title": "Update calendar",
+          "description": "Change the name, event language, or included content.\n\n**Data sources**\n\n- Name days are provided by [Svenska Akademien]({name_day_source}).\n- Theme-day names and dates are provided by [Temadagar.se]({theme_day_source}). Each theme-day event links back to its source page.",
+          "data": {
+            "calendar_name": "Calendar name",
+            "language": "Event language",
+            "categories": "Include"
+          },
+          "sections": {
+            "advanced": {
+              "name": "Advanced",
+              "data": {
+                "override_shared_eve_settings": "Override shared holiday-eve settings",
+                "include_bridge_days": "Include bridge days",
+                "include_epiphany_eve": "Include Epiphany Eve",
+                "include_easter_eve": "Include Easter Eve",
+                "include_walpurgis_night": "Include Walpurgis Night",
+                "include_whitsun_eve": "Include Whitsun Eve",
+                "include_midsummer_eve": "Include Midsummer Eve",
+                "include_all_hallows_eve": "Include All Hallows' Eve",
+                "include_christmas_eve": "Include Christmas Eve",
+                "include_new_years_eve": "Include New Year's Eve"
+              },
+              "data_description": {
+                "override_shared_eve_settings": "Applies only to the holiday-eve switches below.",
+                "include_bridge_days": "Independent of the shared red-day setting and the holiday-eve override."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Shared settings",
+        "data": {
+          "language": "Shared sensor language"
+        },
+        "sections": {
+          "advanced": {
+            "name": "Advanced",
+            "data": {
+              "include_sundays": "Count every Sunday as a red day",
+              "red_day_bridge_days": "Count bridge days as red days",
+              "red_day_epiphany_eve": "Count Epiphany Eve as a red day",
+              "red_day_easter_eve": "Count Easter Eve as a red day",
+              "red_day_walpurgis_night": "Count Walpurgis Night as a red day",
+              "red_day_whitsun_eve": "Count Whitsun Eve as a red day",
+              "red_day_midsummer_eve": "Count Midsummer Eve as a red day",
+              "red_day_all_hallows_eve": "Count All Hallows' Eve as a red day",
+              "red_day_christmas_eve": "Count Christmas Eve as a red day",
+              "red_day_new_years_eve": "Count New Year's Eve as a red day"
+            },
+            "data_description": {
+              "include_sundays": "Controls the red-day sensor and Sunday events in every calendar that includes holidays.",
+              "red_day_bridge_days": "A weekday between two days off will also be treated as red by the shared sensors."
+            }
+          }
+        }
+      }
+    }
+  },
+  "issues": {
+    "source_update_failed": {
+      "title": "Calendar sources could not be updated",
+      "description": "Swedish Calendar Plus has failed to update its external sources at least three times. Existing cached data remains active. Check the Home Assistant logs and network connectivity, then press **Update sources** again. This repair is removed automatically after a successful update."
+    }
+  },
+  "selector": {
+    "language": {
+      "options": {
+        "sv": "Swedish",
+        "en": "English"
+      }
+    },
+    "calendar_category": {
+      "options": {
+        "holidays": "Legal holidays and configured Sundays",
+        "holiday_eves": "Holiday eves (Epiphany, Easter, Walpurgis, Whitsun, Midsummer, All Hallows, Christmas and New Year)",
+        "name_days": "Name days",
+        "theme_days": "Theme days",
+        "flag_days": "Official flag days"
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "update_sources": { "name": "Update sources" }
+    },
+    "binary_sensor": {
+      "red_day": { "name": "Red day" },
+      "public_holiday": { "name": "Public holiday" },
+      "holiday_eve": { "name": "Holiday eve" },
+      "bridge_day": { "name": "Bridge day" },
+      "workday": { "name": "Workday" },
+      "flag_day": { "name": "Flag day" }
+    },
+    "sensor": {
+      "week_number": { "name": "Week number" },
+      "names_today": { "name": "Names today" },
+      "next_public_holiday": { "name": "Next red day" },
+      "days_until_next_public_holiday": { "name": "Days until next red day" }
+    }
+  }
+}

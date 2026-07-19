@@ -1,0 +1,12 @@
+{
+  "domain": "swedish_calendar_plus",
+  "name": "Swedish Calendar Plus",
+  "codeowners": ["@Noirax90"],
+  "config_flow": true,
+  "documentation": "https://github.com/Noirax90/swedish_calendar_plus",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/Noirax90/swedish_calendar_plus/issues",
+  "single_config_entry": true,
+  "version": "1.0.0"
+}

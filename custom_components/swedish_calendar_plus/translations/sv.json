@@ -1,0 +1,231 @@
+{
+  "common": {
+    "event_new_years_day": "Nyårsdagen",
+    "event_epiphany": "Trettondedag jul",
+    "event_may_day": "Första maj",
+    "event_national_day": "Sveriges nationaldag",
+    "event_christmas_day": "Juldagen",
+    "event_boxing_day": "Annandag jul",
+    "event_good_friday": "Långfredagen",
+    "event_easter_sunday": "Påskdagen",
+    "event_easter_monday": "Annandag påsk",
+    "event_ascension_day": "Kristi himmelsfärdsdag",
+    "event_whit_sunday": "Pingstdagen",
+    "event_midsummer_day": "Midsommardagen",
+    "event_all_saints_day": "Alla helgons dag",
+    "event_epiphany_eve": "Trettondagsafton",
+    "event_easter_eve": "Påskafton",
+    "event_walpurgis_night": "Valborgsmässoafton",
+    "event_whitsun_eve": "Pingstafton",
+    "event_midsummer_eve": "Midsommarafton",
+    "event_all_hallows_eve": "Allhelgonaafton",
+    "event_christmas_eve": "Julafton",
+    "event_new_years_eve": "Nyårsafton",
+    "event_sunday": "Söndag",
+    "event_bridge_day": "Klämdag",
+    "event_flag_new_years_day": "Nyårsdagen",
+    "event_flag_kings_name_day": "Kung Carl XVI Gustafs namnsdag",
+    "event_flag_crown_princess_name_day": "Kronprinsessan Victorias namnsdag",
+    "event_flag_easter_sunday": "Påskdagen",
+    "event_flag_kings_birthday": "Kung Carl XVI Gustafs födelsedag",
+    "event_flag_may_day": "Första maj",
+    "event_flag_whit_sunday": "Pingstdagen",
+    "event_flag_veterans_day": "Veterandagen",
+    "event_flag_national_day": "Sveriges nationaldag och svenska flaggans dag",
+    "event_flag_eu_election_day": "Dag för val till Europaparlamentet",
+    "event_flag_midsummer_day": "Midsommardagen",
+    "event_flag_crown_princess_birthday": "Kronprinsessan Victorias födelsedag",
+    "event_flag_queens_name_day": "Drottning Silvias namnsdag",
+    "event_flag_parliamentary_election_day": "Dag för val till riksdagen",
+    "event_flag_un_day": "FN-dagen",
+    "event_flag_gustav_adolf_day": "Gustav Adolfsdagen",
+    "event_flag_nobel_day": "Nobeldagen",
+    "event_flag_queens_birthday": "Drottning Silvias födelsedag",
+    "event_flag_christmas_day": "Juldagen",
+    "theme_attribution": "Källa: Temadagar.se - Läs mer"
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "Konfigurera Swedish Calendar Plus",
+        "description": "Ange gemensamma inställningar och skapa den första kalendern.\n\n**Datakällor**\n\n- Namnsdagar tillhandahålls av [Svenska Akademien]({name_day_source}). Endast namn i den aktuella `namnlangd` inkluderas.\n- Temadagarnas namn och datum tillhandahålls av [Temadagar.se]({theme_day_source}). Varje temadagshändelse innehåller en länk tillbaka till sin källsida.",
+        "data": {
+          "calendar_name": "Kalendernamn",
+          "language": "Språk",
+          "categories": "Inkludera"
+        },
+        "data_description": {
+          "language": "Används av den första kalendern och de gemensamma sensorerna."
+        },
+        "sections": {
+          "advanced": {
+            "name": "Avancerat",
+            "data": {
+              "include_sundays": "Räkna alla söndagar som röda dagar",
+              "red_day_bridge_days": "Räkna klämdagar som röda dagar",
+              "red_day_epiphany_eve": "Räkna trettondagsafton som röd dag",
+              "red_day_easter_eve": "Räkna påskafton som röd dag",
+              "red_day_walpurgis_night": "Räkna valborgsmässoafton som röd dag",
+              "red_day_whitsun_eve": "Räkna pingstafton som röd dag",
+              "red_day_midsummer_eve": "Räkna midsommarafton som röd dag",
+              "red_day_all_hallows_eve": "Räkna allhelgonaafton som röd dag",
+              "red_day_christmas_eve": "Räkna julafton som röd dag",
+              "red_day_new_years_eve": "Räkna nyårsafton som röd dag"
+            },
+            "data_description": {
+              "include_sundays": "När inställningen är avstängd räknas inte vanliga söndagar, om de inte är en namngiven allmän helgdag.",
+              "red_day_bridge_days": "En vardag mellan två lediga dagar behandlas också som röd dag av de gemensamma sensorerna."
+            }
+          }
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Swedish Calendar Plus är redan konfigurerad. Lägg till fler kalendrar från den befintliga integrationsposten."
+    }
+  },
+  "config_subentries": {
+    "calendar": {
+      "entry_type": "Kalender",
+      "initiate_flow": {
+        "user": "Lägg till kalender"
+      },
+      "title": "Kalender",
+      "step": {
+        "user": {
+          "title": "Lägg till kalender",
+          "description": "Välj vad kalendern ska innehålla.\n\n**Datakällor**\n\n- Namnsdagar tillhandahålls av [Svenska Akademien]({name_day_source}).\n- Temadagarnas namn och datum tillhandahålls av [Temadagar.se]({theme_day_source}). Varje temadagshändelse länkar tillbaka till sin källsida.",
+          "data": {
+            "calendar_name": "Kalendernamn",
+            "language": "Språk för kalenderhändelser",
+            "categories": "Inkludera"
+          },
+          "sections": {
+            "advanced": {
+              "name": "Avancerat",
+              "data": {
+                "override_shared_eve_settings": "Åsidosätt gemensamma aftoninställningar",
+                "include_bridge_days": "Inkludera klämdagar",
+                "include_epiphany_eve": "Inkludera trettondagsafton",
+                "include_easter_eve": "Inkludera påskafton",
+                "include_walpurgis_night": "Inkludera valborgsmässoafton",
+                "include_whitsun_eve": "Inkludera pingstafton",
+                "include_midsummer_eve": "Inkludera midsommarafton",
+                "include_all_hallows_eve": "Inkludera allhelgonaafton",
+                "include_christmas_eve": "Inkludera julafton",
+                "include_new_years_eve": "Inkludera nyårsafton"
+              },
+              "data_description": {
+                "override_shared_eve_settings": "Gäller endast inställningarna för aftnar nedan.",
+                "include_bridge_days": "Är oberoende av den gemensamma inställningen för röda dagar och aftonernas override."
+              }
+            }
+          }
+        },
+        "reconfigure": {
+          "title": "Uppdatera kalender",
+          "description": "Ändra namn, språk eller inkluderat innehåll.\n\n**Datakällor**\n\n- Namnsdagar tillhandahålls av [Svenska Akademien]({name_day_source}).\n- Temadagarnas namn och datum tillhandahålls av [Temadagar.se]({theme_day_source}). Varje temadagshändelse länkar tillbaka till sin källsida.",
+          "data": {
+            "calendar_name": "Kalendernamn",
+            "language": "Språk för kalenderhändelser",
+            "categories": "Inkludera"
+          },
+          "sections": {
+            "advanced": {
+              "name": "Avancerat",
+              "data": {
+                "override_shared_eve_settings": "Åsidosätt gemensamma aftoninställningar",
+                "include_bridge_days": "Inkludera klämdagar",
+                "include_epiphany_eve": "Inkludera trettondagsafton",
+                "include_easter_eve": "Inkludera påskafton",
+                "include_walpurgis_night": "Inkludera valborgsmässoafton",
+                "include_whitsun_eve": "Inkludera pingstafton",
+                "include_midsummer_eve": "Inkludera midsommarafton",
+                "include_all_hallows_eve": "Inkludera allhelgonaafton",
+                "include_christmas_eve": "Inkludera julafton",
+                "include_new_years_eve": "Inkludera nyårsafton"
+              },
+              "data_description": {
+                "override_shared_eve_settings": "Gäller endast inställningarna för aftnar nedan.",
+                "include_bridge_days": "Är oberoende av den gemensamma inställningen för röda dagar och aftonernas override."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Gemensamma inställningar",
+        "data": {
+          "language": "Språk för gemensamma sensorer"
+        },
+        "sections": {
+          "advanced": {
+            "name": "Avancerat",
+            "data": {
+              "include_sundays": "Räkna alla söndagar som röda dagar",
+              "red_day_bridge_days": "Räkna klämdagar som röda dagar",
+              "red_day_epiphany_eve": "Räkna trettondagsafton som röd dag",
+              "red_day_easter_eve": "Räkna påskafton som röd dag",
+              "red_day_walpurgis_night": "Räkna valborgsmässoafton som röd dag",
+              "red_day_whitsun_eve": "Räkna pingstafton som röd dag",
+              "red_day_midsummer_eve": "Räkna midsommarafton som röd dag",
+              "red_day_all_hallows_eve": "Räkna allhelgonaafton som röd dag",
+              "red_day_christmas_eve": "Räkna julafton som röd dag",
+              "red_day_new_years_eve": "Räkna nyårsafton som röd dag"
+            },
+            "data_description": {
+              "include_sundays": "Styr sensorn för röd dag och söndagshändelser i alla kalendrar som inkluderar helgdagar.",
+              "red_day_bridge_days": "En vardag mellan två lediga dagar behandlas också som röd dag av de gemensamma sensorerna."
+            }
+          }
+        }
+      }
+    }
+  },
+  "issues": {
+    "source_update_failed": {
+      "title": "Kalenderkällorna kunde inte uppdateras",
+      "description": "Swedish Calendar Plus har misslyckats med att uppdatera sina externa källor minst tre gånger. Befintliga cachade data fortsätter att användas. Kontrollera Home Assistants loggar och nätverksanslutningen och tryck sedan på **Update sources** igen. Reparationen tas automatiskt bort efter en lyckad uppdatering."
+    }
+  },
+  "selector": {
+    "language": {
+      "options": {
+        "sv": "Svenska",
+        "en": "Engelska"
+      }
+    },
+    "calendar_category": {
+      "options": {
+        "holidays": "Allmänna helgdagar och konfigurerade söndagar",
+        "holiday_eves": "Aftnar (trettondag, påsk, valborg, pingst, midsommar, allhelgona, jul och nyår)",
+        "name_days": "Namnsdagar",
+        "theme_days": "Temadagar",
+        "flag_days": "Allmänna flaggdagar"
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "update_sources": { "name": "Update sources" }
+    },
+    "binary_sensor": {
+      "red_day": { "name": "Red day" },
+      "public_holiday": { "name": "Public holiday" },
+      "holiday_eve": { "name": "Holiday eve" },
+      "bridge_day": { "name": "Bridge day" },
+      "workday": { "name": "Workday" },
+      "flag_day": { "name": "Flag day" }
+    },
+    "sensor": {
+      "week_number": { "name": "Week number" },
+      "names_today": { "name": "Names today" },
+      "next_public_holiday": { "name": "Next red day" },
+      "days_until_next_public_holiday": { "name": "Days until next red day" }
+    }
+  }
+}
