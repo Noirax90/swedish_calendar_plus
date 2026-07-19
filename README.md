@@ -1,5 +1,9 @@
 # Swedish Calendar Plus
 
+<p align="center">
+  <img src="assets/logo.png" alt="Swedish Calendar Plus logo" width="256">
+</p>
+
 A custom Home Assistant integration for Swedish holidays, holiday eves, bridge
 days, official flag days, name days, and theme days, with Swedish and English
 localization.
