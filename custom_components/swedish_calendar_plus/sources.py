@@ -100,6 +100,8 @@ def _theme_days_from_payload(
             )
             if not should_project:
                 continue
+        elif not item.get("recurring", True) and item.get("year") != year:
+            continue
 
         try:
             event_date = date(year, item["month"], item["day"])

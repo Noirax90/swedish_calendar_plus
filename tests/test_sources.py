@@ -31,12 +31,12 @@ def test_theme_days_include_attributed_links() -> None:
     assert any(item.title == "Kanelbullens dag" for item in items)
 
 
-def test_latest_theme_day_snapshot_is_projected_forward() -> None:
-    """All latest known theme days remain available in future years."""
+def test_only_recurring_theme_days_are_projected_forward() -> None:
+    """Only latest records marked recurring remain available in future years."""
     current = theme_days_for_year(2027)
     future = theme_days_for_year(2030)
 
-    assert len(future) == len(current)
+    assert len(future) < len(current)
     assert any(item.title == "Kanelbullens dag" for item in future)
 
 
