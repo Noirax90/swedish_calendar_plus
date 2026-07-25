@@ -247,7 +247,9 @@ def merge_theme_history(
                 "year": new["year"],
                 "recurring": new.get("recurring", False),
                 "valid_from": retrieved_at,
-                "valid_to": None,
             }
         )
+    for item in history:
+        if item.get("valid_to") is None:
+            item.pop("valid_to", None)
     return {**current, "format_version": 2, "days": history}

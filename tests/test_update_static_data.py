@@ -54,10 +54,11 @@ def test_theme_day_history_dates_changes_additions_and_removals() -> None:
     for item in history:
         by_url.setdefault(str(item["url"]), []).append(item)
 
-    assert [item["valid_to"] for item in by_url["https://temadagar.se/moved/"]] == [
+    assert [item.get("valid_to") for item in by_url["https://temadagar.se/moved/"]] == [
         "2028-07-19",
         None,
     ]
+    assert "valid_to" not in by_url["https://temadagar.se/moved/"][1]
     assert by_url["https://temadagar.se/removed/"][0]["valid_to"] == "2028-07-19"
     assert by_url["https://temadagar.se/added/"][0]["valid_from"] == "2028-07-19"
 
@@ -131,7 +132,6 @@ def test_recurring_theme_day_projects_until_removed() -> None:
                 "year": 2027,
                 "recurring": True,
                 "valid_from": "2026-07-25",
-                "valid_to": None,
             }
         ]
     }
@@ -153,7 +153,6 @@ def test_non_recurring_theme_day_only_projects_in_its_source_year() -> None:
                 "year": 2027,
                 "recurring": False,
                 "valid_from": "2026-07-25",
-                "valid_to": None,
             }
         ]
     }
@@ -177,7 +176,6 @@ def test_recurring_change_creates_a_new_effective_record() -> None:
                 "year": 2027,
                 "recurring": True,
                 "valid_from": "2026-07-25",
-                "valid_to": None,
             }
         ],
     }
@@ -200,3 +198,4 @@ def test_recurring_change_creates_a_new_effective_record() -> None:
     assert records[0]["valid_to"] == "2027-07-25"
     assert records[1]["recurring"] is False
     assert records[1]["year"] == 2028
+    assert "valid_to" not in records[1]

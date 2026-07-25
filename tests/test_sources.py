@@ -58,7 +58,6 @@ def test_theme_day_changes_can_be_effective_dated() -> None:
                 "title": "Exempeldagen",
                 "url": "https://temadagar.se/exempeldagen/",
                 "valid_from": "2028-07-01",
-                "valid_to": None,
             },
         ]
     }
