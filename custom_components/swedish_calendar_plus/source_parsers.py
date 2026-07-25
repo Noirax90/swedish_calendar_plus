@@ -197,26 +197,42 @@ def merge_theme_history(
         history = [dict(item) for item in existing_days]
     else:
         baseline_year = max(existing.get("calendar_years", ()), default=None)
+        existing_retrieved_at = existing.get("retrieved_at")
         history = [
             {
                 "day": item["day"],
                 "month": item["month"],
                 "title": item["title"],
                 "url": item["url"],
-                "valid_from": f"{baseline_year}-01-01",
-                "valid_to": None,
+                "year": item["year"],
+                "recurring": item.get("recurring", False),
+                "valid_from": (
+                    existing_retrieved_at
+                    if existing_retrieved_at
+                    and existing_retrieved_at.startswith(f"{item['year']}-")
+                    else f"{item['year']}-01-01"
+                ),
+                "valid_to": (
+                    None
+                    if item.get("year") == baseline_year
+                    else f"{item['year'] + 1}-01-01"
+                ),
             }
             for item in existing_days
-            if item.get("year") == baseline_year
+            if item.get("year") is not None
         ]
 
     active = {item["url"]: item for item in history if item.get("valid_to") is None}
     incoming = {item["url"]: item for item in current["days"]}
     for url, old in active.items():
         new = incoming.get(url)
-        if new is None or any(
-            old[field] != new[field] for field in ("day", "month", "title")
-        ):
+        old_recurring = old.get("recurring", True)
+        changed = new is not None and (
+            any(old[field] != new[field] for field in ("day", "month", "title"))
+            or old_recurring != new.get("recurring", False)
+            or (not new.get("recurring", False) and old.get("year") != new.get("year"))
+        )
+        if new is None or changed:
             old["valid_to"] = retrieved_at
     for url, new in incoming.items():
         old = active.get(url)
@@ -228,8 +244,12 @@ def merge_theme_history(
                 "month": new["month"],
                 "title": new["title"],
                 "url": new["url"],
+                "year": new["year"],
+                "recurring": new.get("recurring", False),
                 "valid_from": retrieved_at,
-                "valid_to": None,
             }
         )
+    for item in history:
+        if item.get("valid_to") is None:
+            item.pop("valid_to", None)
     return {**current, "format_version": 2, "days": history}

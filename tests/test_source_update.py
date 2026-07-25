@@ -92,10 +92,11 @@ def test_runtime_theme_update_preserves_effective_dated_history() -> None:
 
     merged = merge_theme_history(existing, current, "2028-07-19")
 
-    assert [item["valid_to"] for item in merged["days"]] == [
+    assert [item.get("valid_to") for item in merged["days"]] == [
         "2028-07-19",
         None,
     ]
+    assert "valid_to" not in merged["days"][1]
 
 
 def test_dataset_fingerprint_ignores_retrieval_time() -> None:
