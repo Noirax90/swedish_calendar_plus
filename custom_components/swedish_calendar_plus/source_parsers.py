@@ -162,7 +162,7 @@ def parse_theme_day_calendar(
                         "day": int(day_text),
                         "month": month,
                         "recurring": marker == "*",
-                        "title": unescape(raw_title).strip(),
+                        "title": unescape(raw_title).replace("\\'", "'").strip(),
                         "url": f"{THEME_DAY_BASE_URL}{path}",
                         "year": year,
                     }
