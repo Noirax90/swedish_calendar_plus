@@ -100,6 +100,14 @@ MONTHS: Final = {
     "november": 11,
     "december": 12,
 }
+THEME_TITLE_BACKSLASHES: Final = re.compile(r"\\+")
+THEME_TITLE_WHITESPACE: Final = re.compile(r"\s+")
+
+
+def _normalize_theme_title(raw_title: str) -> str:
+    """Normalize source escaping without removing meaningful punctuation."""
+    title = THEME_TITLE_BACKSLASHES.sub("", unescape(raw_title))
+    return THEME_TITLE_WHITESPACE.sub(" ", title).strip()
 
 
 def normalize_name_days(payload: object, retrieved_at: str) -> NameDayPayload:
@@ -162,7 +170,7 @@ def parse_theme_day_calendar(
                         "day": int(day_text),
                         "month": month,
                         "recurring": marker == "*",
-                        "title": unescape(raw_title).replace("\\'", "'").strip(),
+                        "title": _normalize_theme_title(raw_title),
                         "url": f"{THEME_DAY_BASE_URL}{path}",
                         "year": year,
                     }
