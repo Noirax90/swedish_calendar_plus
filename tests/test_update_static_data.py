@@ -1,7 +1,55 @@
 """Tests for effective-dated static dataset updates."""
 
+from __future__ import annotations
+
+import json
+from typing import TYPE_CHECKING
+
 from custom_components.swedish_calendar_plus.source_parsers import merge_theme_history
 from custom_components.swedish_calendar_plus.sources import _theme_days_from_payload
+from scripts import update_static_data
+from scripts.update_static_data import _source_content_changed
+
+if TYPE_CHECKING:
+    from pathlib import Path
+
+    import pytest
+
+
+def test_source_comparison_ignores_only_retrieval_timestamp() -> None:
+    """A daily check date alone does not count as a source-data change."""
+    existing = {
+        "retrieved_at": "2026-08-08",
+        "source": "https://example.test",
+        "days": [{"day": 1, "month": 1}],
+    }
+    checked_later = {**existing, "retrieved_at": "2026-08-09"}
+    changed_data = {
+        **checked_later,
+        "days": [{"day": 2, "month": 1}],
+    }
+
+    assert not _source_content_changed(existing, checked_later)
+    assert _source_content_changed(existing, changed_data)
+
+
+def test_timestamp_only_refresh_does_not_rewrite_dataset(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """The updater preserves the previous file when only checked-at changed."""
+    monkeypatch.setattr(update_static_data, "DATA_DIRECTORY", tmp_path)
+    existing = {
+        "retrieved_at": "2026-08-08",
+        "source": "https://example.test",
+        "days": [{"day": 1, "month": 1}],
+    }
+    path = tmp_path / "source.json"
+    path.write_text(json.dumps(existing), encoding="utf-8")
+
+    assert not update_static_data._write_json_if_changed(
+        "source.json", {**existing, "retrieved_at": "2026-08-09"}
+    )
+    assert json.loads(path.read_text(encoding="utf-8")) == existing
 
 
 def test_theme_day_history_dates_changes_additions_and_removals() -> None:

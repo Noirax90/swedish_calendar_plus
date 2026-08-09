@@ -1,0 +1,97 @@
+name: Update static calendar data
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-static-calendar-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Fetch source updates
+    runs-on: ubuntu-latest
+    env:
+      UPDATE_BRANCH: automation/update-static-calendar-data
+      PR_TITLE: Update static calendar data
+      NAME_DAY_DATA: custom_components/swedish_calendar_plus/data/name_days.json
+      THEME_DAY_DATA: custom_components/swedish_calendar_plus/data/theme_days.json
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.14"
+
+      - name: Prepare trusted update workspace
+        id: branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing_pr="$(gh pr list --state open --head "$UPDATE_BRANCH" --json number --jq '.[0].number // empty')"
+          echo "existing_pr=$existing_pr" >> "$GITHUB_OUTPUT"
+          if [[ -n "$existing_pr" ]]; then
+            git fetch origin "$UPDATE_BRANCH:refs/remotes/origin/$UPDATE_BRANCH"
+            git show "origin/$UPDATE_BRANCH:$NAME_DAY_DATA" > "$NAME_DAY_DATA"
+            git show "origin/$UPDATE_BRANCH:$THEME_DAY_DATA" > "$THEME_DAY_DATA"
+          fi
+          before_hash="$(git hash-object "$NAME_DAY_DATA" "$THEME_DAY_DATA" | sha256sum | cut -d ' ' -f 1)"
+          echo "before_hash=$before_hash" >> "$GITHUB_OUTPUT"
+
+      - name: Fetch and normalize sources
+        run: python3 scripts/update_static_data.py
+
+      - name: Detect source-content changes
+        id: changes
+        run: |
+          after_hash="$(git hash-object "$NAME_DAY_DATA" "$THEME_DAY_DATA" | sha256sum | cut -d ' ' -f 1)"
+          if [[ "$after_hash" == "${{ steps.branch.outputs.before_hash }}" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push changed datasets
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git switch --force-create "$UPDATE_BRANCH" origin/main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$NAME_DAY_DATA" "$THEME_DAY_DATA"
+          git commit -m "Update static calendar data"
+          git push --force-with-lease origin "$UPDATE_BRANCH"
+
+      - name: Create or update pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXISTING_PR: ${{ steps.branch.outputs.existing_pr }}
+        run: |
+          if [[ -z "$EXISTING_PR" ]]; then
+            gh pr create \
+              --base main \
+              --head "$UPDATE_BRANCH" \
+              --title "$PR_TITLE" \
+              --body "Automated daily refresh of the bundled Svenska Akademien name-day data and Temadagar.se theme-day data. Retrieval timestamps alone are excluded from change detection."
+          fi
+
+      - name: Run required validation workflows
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run lint.yml --ref "$UPDATE_BRANCH"
+          gh workflow run test.yml --ref "$UPDATE_BRANCH"
+          gh workflow run validate.yml --ref "$UPDATE_BRANCH"
