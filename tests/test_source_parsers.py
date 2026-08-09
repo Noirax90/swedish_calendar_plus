@@ -13,6 +13,12 @@ if TYPE_CHECKING:
 FIXTURES = Path(__file__).parent / "fixtures"
 
 
+def test_theme_title_normalization_removes_source_backslashes() -> None:
+    """One or several source backslashes do not leak into event titles."""
+    for raw_title in (r"Saint Patrick\'s day", r"Saint Patrick\\'s day"):
+        assert source_parsers._normalize_theme_title(raw_title) == "Saint Patrick's day"
+
+
 def test_temadagar_html_fixture_is_parsed_without_network(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
