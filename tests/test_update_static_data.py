@@ -111,6 +111,54 @@ def test_theme_day_history_dates_changes_additions_and_removals() -> None:
     assert by_url["https://temadagar.se/added/"][0]["valid_from"] == "2028-07-19"
 
 
+def test_theme_day_history_normalizes_spacing_without_creating_change() -> None:
+    """Equivalent source spacing does not create a false history boundary."""
+    existing = {
+        "calendar_years": [2027],
+        "days": [
+            {
+                "day": 21,
+                "month": 4,
+                "title": (
+                    "Världsdagen\N{NO-BREAK SPACE}för\N{NO-BREAK SPACE}"
+                    "kreativitet och innovation"
+                ),
+                "url": "https://temadagar.se/varldsdagen-for-kreativitet-och-innovation/",
+                "year": 2027,
+                "recurring": True,
+                "valid_from": "2027-01-01",
+            }
+        ],
+    }
+    current = {
+        "calendar_years": [2027],
+        "days": [
+            {
+                "day": 21,
+                "month": 4,
+                "title": "Världsdagen för kreativitet och innovation",
+                "url": "https://temadagar.se/varldsdagen-for-kreativitet-och-innovation/",
+                "year": 2027,
+                "recurring": True,
+            }
+        ],
+    }
+
+    records = merge_theme_history(existing, current, "2026-08-13")["days"]
+
+    assert records == [
+        {
+            "day": 21,
+            "month": 4,
+            "title": "Världsdagen för kreativitet och innovation",
+            "url": "https://temadagar.se/varldsdagen-for-kreativitet-och-innovation/",
+            "year": 2027,
+            "recurring": True,
+            "valid_from": "2027-01-01",
+        }
+    ]
+
+
 def test_legacy_theme_history_preserves_each_snapshot_year() -> None:
     """Migrating legacy records keeps both partial and future calendar years."""
     existing = {
