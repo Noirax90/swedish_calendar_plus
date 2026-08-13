@@ -230,6 +230,9 @@ def merge_theme_history(
             if item.get("year") is not None
         ]
 
+    for item in history:
+        item["title"] = _normalize_theme_title(item["title"])
+
     active = {item["url"]: item for item in history if item.get("valid_to") is None}
     incoming = {item["url"]: item for item in current["days"]}
     for url, old in active.items():
