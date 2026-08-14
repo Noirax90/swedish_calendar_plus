@@ -141,11 +141,25 @@ def parse_theme_day_calendar(
     source: str,
 ) -> tuple[list[int], list[ThemeDayRecord]]:
     """Parse and validate every annual section published by Temadagar.se."""
-    sections = re.compile(
-        r"Kalender med temadagar\s+(20\d{2})(.*?)(?="
-        r"Kalender med temadagar\s+20\d{2}|$)",
-        re.IGNORECASE | re.DOTALL,
-    ).findall(source)
+    normalized_source = unescape(source).replace("\xa0", " ")
+    year_heading_pattern = re.compile(
+        r"Kalender\s+med\s+temadagar[^0-9]{0,80}(20\d{2})",
+        re.IGNORECASE,
+    )
+    heading_matches = list(year_heading_pattern.finditer(normalized_source))
+    sections = [
+        (
+            match.group(1),
+            normalized_source[
+                match.end() : (
+                    heading_matches[index + 1].start()
+                    if index + 1 < len(heading_matches)
+                    else len(normalized_source)
+                )
+            ],
+        )
+        for index, match in enumerate(heading_matches)
+    ]
     block_pattern = re.compile(
         r"<p><a[^>]*><b>(\d{1,2})\s+([a-zåäö]+)</b></a><br\s*/?>(.*?)</p>",
         re.IGNORECASE | re.DOTALL,

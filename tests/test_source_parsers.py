@@ -71,3 +71,21 @@ def test_temadagar_html_fixture_is_parsed_without_network(
             "year": 2027,
         },
     ]
+
+
+def test_theme_calendar_year_parsing_allows_nbsp_and_text(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """Year headings still parse when spacing/wording changes slightly."""
+    monkeypatch.setattr(source_parsers, "MINIMUM_THEME_DAY_COUNT", 1)
+    source = """
+    <h2>Kalender&nbsp;med&nbsp;temadagar för 2027</h2>
+    <p><a href="/d1"><b>1 januari</b></a><br><a href="/foo/">Foo</a></p>
+    <h2>Kalender med temadagar för 2028</h2>
+    <p><a href="/d2"><b>2 januari</b></a><br><a href="/bar/">Bar</a></p>
+    """
+
+    years, days = source_parsers.parse_theme_day_calendar(source)
+
+    assert years == [2027, 2028]
+    assert [item["title"] for item in days] == ["Foo", "Bar"]
