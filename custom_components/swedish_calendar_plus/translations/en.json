@@ -90,7 +90,6 @@
       "initiate_flow": {
         "user": "Add calendar"
       },
-      "title": "Calendar",
       "step": {
         "user": {
           "title": "Add calendar",
