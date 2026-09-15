@@ -12664,9 +12664,18 @@
       "url": "https://temadagar.se/dagen-for-innemiljo-och-halsa/",
       "valid_from": "2026-08-17",
       "year": 2027
+    },
+    {
+      "day": 31,
+      "month": 3,
+      "recurring": true,
+      "title": "90-dagen",
+      "url": "https://temadagar.se/90-dagen/",
+      "valid_from": "2026-09-15",
+      "year": 2027
     }
   ],
   "format_version": 2,
-  "retrieved_at": "2026-08-17",
+  "retrieved_at": "2026-09-15",
   "source": "https://temadagar.se/kalender/"
 }
