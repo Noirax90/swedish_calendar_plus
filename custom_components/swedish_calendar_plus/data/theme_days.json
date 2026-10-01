@@ -12664,9 +12664,37 @@
       "url": "https://temadagar.se/dagen-for-innemiljo-och-halsa/",
       "valid_from": "2026-08-17",
       "year": 2027
+    },
+    {
+      "day": 31,
+      "month": 3,
+      "recurring": true,
+      "title": "90-dagen",
+      "url": "https://temadagar.se/90-dagen/",
+      "valid_from": "2026-09-15",
+      "year": 2027
+    },
+    {
+      "day": 12,
+      "month": 12,
+      "recurring": true,
+      "title": "Skiftnyckelns dag",
+      "url": "https://temadagar.se/skiftnyckelns-dag/",
+      "valid_from": "2026-09-27",
+      "year": 2027
+    },
+    {
+      "day": 1,
+      "month": 10,
+      "recurring": true,
+      "title": "Cyberhygiendagen",
+      "url": "https://temadagar.se/cyberhygiendagen/",
+      "valid_from": "2026-09-30",
+      "valid_to": "2026-10-01",
+      "year": 2027
     }
   ],
   "format_version": 2,
-  "retrieved_at": "2026-08-17",
+  "retrieved_at": "2026-10-01",
   "source": "https://temadagar.se/kalender/"
 }
