@@ -12664,9 +12664,298 @@
       "url": "https://temadagar.se/dagen-for-innemiljo-och-halsa/",
       "valid_from": "2026-08-17",
       "year": 2027
+    },
+    {
+      "day": 31,
+      "month": 3,
+      "recurring": true,
+      "title": "90-dagen",
+      "url": "https://temadagar.se/90-dagen/",
+      "valid_from": "2026-09-15",
+      "year": 2027
+    },
+    {
+      "day": 12,
+      "month": 12,
+      "recurring": true,
+      "title": "Skiftnyckelns dag",
+      "url": "https://temadagar.se/skiftnyckelns-dag/",
+      "valid_from": "2026-09-27",
+      "year": 2027
+    },
+    {
+      "day": 1,
+      "month": 10,
+      "recurring": true,
+      "title": "Cyberhygiendagen",
+      "url": "https://temadagar.se/cyberhygiendagen/",
+      "valid_from": "2026-09-30",
+      "valid_to": "2026-10-01",
+      "year": 2027
+    },
+    {
+      "day": 13,
+      "month": 11,
+      "recurring": true,
+      "title": "Fjärrvärmens dag",
+      "url": "https://temadagar.se/fjarrvarmens-dag/",
+      "valid_from": "2026-10-09",
+      "year": 2027
+    },
+    {
+      "day": 20,
+      "month": 10,
+      "recurring": true,
+      "title": "Cyberhygiendagen",
+      "url": "https://temadagar.se/cyberhygiendagen/",
+      "valid_from": "2026-10-18",
+      "year": 2027
+    },
+    {
+      "day": 9,
+      "month": 2,
+      "recurring": false,
+      "title": "Safer internet day",
+      "url": "https://temadagar.se/safer-internet-day/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 19,
+      "month": 3,
+      "recurring": false,
+      "title": "Internationella sömndagen",
+      "url": "https://temadagar.se/internationella-somndagen/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 27,
+      "month": 3,
+      "recurring": false,
+      "title": "Earth hour",
+      "url": "https://temadagar.se/earth-hour/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 17,
+      "month": 4,
+      "recurring": false,
+      "title": "Skivbutikernas dag",
+      "url": "https://temadagar.se/skivbutikernas-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 21,
+      "month": 4,
+      "recurring": false,
+      "title": "Uniform på jobbet-dagen",
+      "url": "https://temadagar.se/uniformens-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 24,
+      "month": 4,
+      "recurring": false,
+      "title": "Trallens dag",
+      "url": "https://temadagar.se/trallens-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 27,
+      "month": 4,
+      "recurring": false,
+      "title": "Klädbytardagen",
+      "url": "https://temadagar.se/kladbytardagen/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 2,
+      "month": 5,
+      "recurring": false,
+      "title": "Gosskörernas dag",
+      "url": "https://temadagar.se/gosskorernas-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 16,
+      "month": 5,
+      "recurring": true,
+      "title": "Stora bokbytardagen",
+      "url": "https://temadagar.se/stora-bokbytardagen/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 22,
+      "month": 5,
+      "recurring": false,
+      "title": "Blåsmusikens dag",
+      "url": "https://temadagar.se/blasmusikens-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 28,
+      "month": 5,
+      "recurring": false,
+      "title": "Fotbollströjefredag",
+      "url": "https://temadagar.se/fotbollstrojefredag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 20,
+      "month": 6,
+      "recurring": false,
+      "title": "De vilda blommornas dag",
+      "url": "https://temadagar.se/de-vilda-blommornas-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 12,
+      "month": 8,
+      "recurring": true,
+      "title": "Internationella elefantdagen",
+      "url": "https://temadagar.se/internationella-elefantdagen/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 4,
+      "month": 9,
+      "recurring": false,
+      "title": "Internationella bacondagen",
+      "url": "https://temadagar.se/internationella-bacondagen/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 12,
+      "month": 9,
+      "recurring": false,
+      "title": "Mor- och farföräldrarnas dag",
+      "url": "https://temadagar.se/mor-och-farforaldrarnas-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 13,
+      "month": 9,
+      "recurring": false,
+      "title": "Programmerarens dag",
+      "url": "https://temadagar.se/programmerarens-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 9,
+      "month": 10,
+      "recurring": false,
+      "title": "Tidningsbudens dag",
+      "url": "https://temadagar.se/tidningsbudens-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 15,
+      "month": 10,
+      "recurring": false,
+      "title": "DLD-dagen",
+      "url": "https://temadagar.se/dld-dagen/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 16,
+      "month": 10,
+      "recurring": false,
+      "title": "Hörselskadades dag",
+      "url": "https://temadagar.se/horselskadades-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 27,
+      "month": 10,
+      "recurring": false,
+      "title": "Skyddsombudens dag",
+      "url": "https://temadagar.se/skyddsombudens-dag/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 15,
+      "month": 11,
+      "recurring": false,
+      "title": "Dödshälsningsdagen",
+      "url": "https://temadagar.se/dodshalsningsdagen/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 18,
+      "month": 11,
+      "recurring": false,
+      "title": "Nationella läsdagen",
+      "url": "https://temadagar.se/nationella-lasdagen/",
+      "valid_from": "2026-10-27",
+      "year": 2027
+    },
+    {
+      "day": 18,
+      "month": 3,
+      "recurring": true,
+      "title": "Internationella återvinningsdagen",
+      "url": "https://temadagar.se/internationella-atervinningsdagen/",
+      "valid_from": "2026-10-29",
+      "year": 2027
+    },
+    {
+      "day": 30,
+      "month": 9,
+      "recurring": true,
+      "title": "Dramapedagogikens dag",
+      "url": "https://temadagar.se/dramapedagogikens-dag/",
+      "valid_from": "2026-10-29",
+      "year": 2027
+    },
+    {
+      "day": 5,
+      "month": 10,
+      "recurring": true,
+      "title": "Världsmeningitdagen",
+      "url": "https://temadagar.se/varldsmeningitdagen/",
+      "valid_from": "2026-10-29",
+      "year": 2027
+    },
+    {
+      "day": 16,
+      "month": 10,
+      "recurring": false,
+      "title": "Internationella reparationsdagen",
+      "url": "https://temadagar.se/internationella-reparationsdagen/",
+      "valid_from": "2026-10-29",
+      "year": 2027
+    },
+    {
+      "day": 31,
+      "month": 10,
+      "recurring": false,
+      "title": "World Swim Hat Day",
+      "url": "https://temadagar.se/world-swim-hat-day/",
+      "valid_from": "2026-10-29",
+      "year": 2027
     }
   ],
   "format_version": 2,
-  "retrieved_at": "2026-08-17",
+  "retrieved_at": "2026-10-29",
   "source": "https://temadagar.se/kalender/"
 }
